@@ -1,0 +1,21 @@
+.cont-lista-productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #578a68;
+  padding-bottom: 3rem;
+}
+
+.contenedor-principal {
+  background-color: #163e24;
+}
+
+.contenedor-principal h1 {
+  text-align: left;
+  padding: 30px;
+}
+
+.item {
+  padding: 1rem;
+}

@@ -1,0 +1,26 @@
+.changuito {
+  position: fixed;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #2e653e;
+  color: #f1db77;
+  right: 5px;
+  top: 5px;
+  width: 300px;
+}
+
+h6 {
+  font-size: 1.7rem;
+  font-family: "letter-magic";
+  margin: 10px 5px;
+}
+
+.badge {
+  font-size: 1.5rem;
+  margin: 20px;
+}

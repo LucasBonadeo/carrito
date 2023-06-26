@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "letter-magic";
+  src: url("../../assets/tipografia/Letter\ Magic.ttf") format("truetype");
+}
+
+.contenedor-hero-image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/img/fondo-header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 9px -40px 27px -30px rgba(0, 0, 0, 0.66) inset;
+  -webkit-box-shadow: 9px -40px 27px -30px rgba(0, 0, 0, 0.66) inset;
+  -moz-box-shadow: 9px -40px 27px -30px rgba(0, 0, 0, 0.66) inset;
+}
+
+h1,
+h4 {
+  font-family: "letter-magic";
+  color: orange;
+  text-shadow: -2px -1px 10px rgba(0, 0, 0, 0.97);
+  text-align: center;
+}
+
+.disco-vinilo {
+  max-width: 400px;
+}
+
+.rotate {
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

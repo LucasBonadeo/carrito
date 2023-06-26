@@ -1,0 +1,38 @@
+.producto-lista {
+  background-color: #f1db77;
+  margin: 1rem 0rem;
+  box-shadow: -2px 1px 20px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 1px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 1px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.producto-carrito {
+  background-color: #f1db77;
+  width: 100%;
+  margin: 0.5rem 0rem;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: -2px 1px 20px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px 1px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px 1px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.nombre-disco {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.float {
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+.float:hover {
+  box-shadow: 0 8px 8px 0 #000000, 0 8px 8px 0 #000000;
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  -moz-transform: translate(0px, 5px);
+}
